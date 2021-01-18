@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <header>
@@ -13,22 +13,43 @@
       </div>
       <nav>
         <ul class="nav__ul">
-          <li class="nav__li">Shop</li>
-          <li class="nav__li">Media</li>
-          <li class="nav__li">Visuals</li>
-          <li class="nav__li">Readings</li>
+          <li><a href="" class="nav__li">Shop</a></li>
+          <li><a href="" class="nav__li">Media</a></li>
+          <li><a href="" class="nav__li">Visuals</a></li>
+          <li><a href="" class="nav__li">Readings</a></li>
         </ul>
       </nav>
     </header>
     <div id="layOut">
-    <section id="hero">
+      <section id="hero">
         <div id="hero__image">
-        <img src="./images/4am.jpeg" alt="">
+          <img src="./images/4am.jpeg" alt="" />
         </div>
-        <div id="hero__text">
+        
+        <form action="https://formspree.io/f/xoqprvyp" method="POST" id="subscribe">
+          <div id="hero__text">
             <h1>Coming Soon!</h1>
-        </div>
-    </section>
+          </div>
+          <section id="form">
+              <label for="fname">
+                First Name
+              </label>
+              <input type="text" id="fname" name="first name">
+              <br>
+              <label for="lname">
+                Last Name
+              </label>
+              <input type="text" id="lname" name="last name">
+              <br>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email">
+              <input type="submit">
+          </section>
+        </form>
+      </section>
     </div>
+    <!-- <script>
+        prompt("Email Address")
+    </script> -->
   </body>
 </html>
