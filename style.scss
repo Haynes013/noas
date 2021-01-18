@@ -1,0 +1,45 @@
+// Body
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+
+
+// Layout
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    color: white;
+    background-color: rgb(31, 45, 61);
+}
+#layOut{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(56, 78, 95);
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    
+#hero{
+    width: 70%;
+    
+}
+}
+.nav__ul{
+    list-style-type: none; 
+    display: flex;
+    justify-content: space-between;
+
+    .nav__li{
+        margin-right: 7px;
+    }
+}
+// Block
